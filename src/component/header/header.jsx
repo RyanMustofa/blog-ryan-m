@@ -1,11 +1,7 @@
 import React from "react";
 import { Link } from 'react-router-dom';
 
-class Header extends React.Component {
-    constructor(props) {
-        super(props);
-    }
-    render() {
+const Header = (props) => {
         return (
             <div>
                 <nav className="navbar navbar-expand-lg navbar-light fixed-top">
@@ -22,7 +18,7 @@ class Header extends React.Component {
                             aria-expanded="false"
                             aria-label="Toggle navigation"
                         >
-                            <span className="navbar-toggler-icon"></span>
+                            <span className="fas fa-bars"></span>
                         </button>
                         <div
                             className="collapse navbar-collapse justify-content-end"
@@ -42,10 +38,9 @@ class Header extends React.Component {
                         </div>
                     </div>
                 </nav>
-                {this.props.children}
+                {props.children}
             </div>
         );
-    }
 }
 
 export default Header;
