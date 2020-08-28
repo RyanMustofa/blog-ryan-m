@@ -13,7 +13,7 @@ export const article = {
             description: "Tutorial Python dasar dengan python versi 3.6",
             content: "<p>Hallo teman teman disini saya akan memberikan tutorial tentang python , siapa sih yang tidak kenal bahasa pemrograman python , python merupakan bahasa populer yang banyak digunakan di dunia . python juga merupakan bahasa yang powerfull dengan struktur kode yang mudah di pahami bagi pemula</p> <br /> <h3>Apa Itu Python ?</h3> <p>Python merupakan bahasa pemrograman tingkat tinggi yang diracik oleh Guido van Rossum</p> <p>Python banyak digunakan untuk membuat berbagai macam program, seperti: program CLI, Program GUI (desktop), Aplikasi Mobile, Web, IoT, Game, Program untuk Hacking, dsb.</p> <p>Python juga dikenal dengan bahasa pemrograman yang mudah dipelajari, karena struktur sintaknya rapi dan mudah dipahami.</p> <br /><h3>Kenapa belajar Python?</h3> <p>Python memang sangat sederhana dibandingkan bahasa yang lainnya. Tidak perlu ini dan itu untuk membuat program Hello World!.</p> <p>Bahkan tagline di websitenya menjelaskan, kalau python akan membuatmu bekerja lebih cepat dan efektif.</p><p>Python is a programming language that lets you work quickly and integrate systems more effectively.</p> <br /> <h3>Bagaiaman cara install Python?</h3> <p>Bagi pengguna Linux, Python tidak perlu diinstal. Karena Sebagian besar distro Linux sudah menyediakannya secara default.</p> <p>Untuk mengeceknya, silahkan ketik perintah python --version di terminal.</p> <br /> ",
             image: "https://www.petanikode.com/img/python/python.png",
-            source: "example.org",
+            source: "https://blogryan.netlify.app/sekolah/Tutorial%20Python%20dasar",
             profile: "ryanmustofa"
         }
     ]

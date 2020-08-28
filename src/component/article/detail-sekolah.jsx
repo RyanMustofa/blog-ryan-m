@@ -6,6 +6,8 @@ const DetailSekolah = (props) => {
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
+        document.title = "sekolah | RyanBlog"
+        console.log(document)
         setTimeout(() => setData(article.article), setLoading(false), 1500);
     }, []);
     const title = props.match.params.title;

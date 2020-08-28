@@ -6,6 +6,7 @@ const Technology = props => {
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
+        document.title = "liputan6 | RyanBlog"
         axios
             .get(
                 "https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Ffeed.liputan6.com%2Frss"

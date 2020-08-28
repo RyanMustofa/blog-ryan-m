@@ -6,6 +6,7 @@ const Sekolah = props => {
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
+        document.title = "sekolah | RyanBlog"
         setTimeout(() => setData(article.article), setLoading(false), 1500);
     }, []);
     const onClick = title => {
